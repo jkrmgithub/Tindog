@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* color: white; */
+}
+
+/* HEADER */
+
+.header {
+    height: 5.06em; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.header > img {
+    height: 2.12em;
+}
+
+/* DOG PROFILE */
+
+.dog-profile-container {
+    position: relative;
+    /* border: green 2px solid; */
+}
+
+.dog-profile-container > img {
+    height: 40em;
+    width: 100vw;
+    border-radius: 15px;
+    padding: 0 0.5em;
+}
+
+.dog-profile-text {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: #F8F8F8;
+}
+
+.dog-profile-text > h3 {
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.dog-profile-text > p {
+    font-weight: 400;
+    line-height: 32px;
+    color: #B7B7B7;
+}
+
+
+/* BUTTONS */
+
+.dog-buttons-container {
+    margin: 2.5em;
+    height: 3em;
+    /* border: red 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.heart-button,
+.cross-button {
+    padding: 1rem;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    background-color: white;
+}
+
+.heart-button:hover,
+.cross-button:hover{
+    cursor: pointer;
+}
+
+.heart-button:hover{
+    background-color: #DBFFF4;
+}
+
+.cross-button:hover{
+    background-color: #FFE7EF;
+}
+
+/* BADGES */
+
+.badge{
+    background-color: transparent;
+    width: 14.6em;
+    position: absolute;
+    top: 2.5em;
+    left: 1.7em;
+    transform: rotate(-20deg); 
+}
+
+
+/* NO DOGS MESSAGES */
+
+.no-more-dogs-message{
+    text-align: center;
+    border: whitesmoke solid 2px;
+    background-color: pink;
+    border-radius: 15px;
+    display: flex;
+    height: 20em;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    margin: 3em;
+}
+
+
+/* MISC */
+
+.hidden{
+    display: none;
+}
