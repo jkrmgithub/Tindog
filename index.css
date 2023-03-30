@@ -6,10 +6,25 @@
     /* color: white; */
 }
 
+/* MAIN CONTAINER */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container{
+    width: 500px;
+    max-width: 500px;
+}
+
 /* HEADER */
 
 .header {
-    height: 5.06em; 
+    height: 5.06em;
+    width: 31.25em;
+    max-width: 31.25em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +35,8 @@
     height: 2.12em;
 }
 
+
+
 /* DOG PROFILE */
 
 .dog-profile-container {
@@ -29,7 +46,7 @@
 
 .dog-profile-container > img {
     height: 40em;
-    width: 100vw;
+    width: 100%;
     border-radius: 15px;
     padding: 0 0.5em;
 }
@@ -44,14 +61,12 @@
 .dog-profile-text > h3 {
     font-weight: 600;
     line-height: 36px;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 .dog-profile-text > p {
     font-weight: 400;
     line-height: 32px;
     color: #B7B7B7;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 
