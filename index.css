@@ -28,7 +28,7 @@
 }
 
 .dog-profile-container > img {
-    height: 40em;
+    height: 40.5em;
     width: 100vw;
     border-radius: 15px;
     padding: 0 0.5em;
@@ -44,12 +44,14 @@
 .dog-profile-text > h3 {
     font-weight: 600;
     line-height: 36px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .dog-profile-text > p {
     font-weight: 400;
     line-height: 32px;
     color: #B7B7B7;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 
